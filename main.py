@@ -10,6 +10,7 @@ def format_text_to_list(string):
     return final_list
 
 
+st.set_page_config(page_title="Keyword Processor")
 st.markdown("## ***Enter All Keywords***")
 all_keywords = st.text_area("", height=25)
 
