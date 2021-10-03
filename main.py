@@ -11,6 +11,12 @@ def format_text_to_list(string):
 
 
 st.set_page_config(page_title="Keyword Processor")
+hide_menu = """
+<style>#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>"""
+st.markdown(hide_menu, unsafe_allow_html=True)
+
 st.markdown("## ***Enter All Keywords***")
 all_keywords = st.text_area("", height=25)
 
