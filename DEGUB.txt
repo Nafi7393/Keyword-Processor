@@ -1,0 +1,9 @@
+DEBUGGING:
+
+1.
+python -c "import nltk; nltk.download('stopwords')"
+
+
+2.
+import nltk
+nltk.download('punkt')

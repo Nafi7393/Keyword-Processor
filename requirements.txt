@@ -1,0 +1,6 @@
+streamlit
+requests
+dotenv
+wordcloud
+matplotlib
+rake_nltk
