@@ -18,19 +18,19 @@ The Keyword Processor is a versatile tool for linguistic analysis and exploratio
 
 ### 1. Base Interface
 
-![Base Interface](DEMO\1.png)
+![Base Interface](DEMO\\1.png)
 
 *Description: Initial interface where users can input text and interact with the application.*
 ###
 ### 2. After Clicking the "Process Keywords" Button
 
-![Keyword Process](DEMO\2.png)
+![Keyword Process](DEMO\\2.png)
 
 *Description: Interface after processing keywords, displaying the processed keywords.*
 ###
 ### 3. After Clicking ope of the "Get details for" Button
 
-![Details View](DEMO\3.png)
+![Details View](DEMO\\3.png)
 
 *Description: Interface showing details such as definitions, synonyms, and antonyms for a selected keyword.*
 
