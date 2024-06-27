@@ -40,7 +40,7 @@ The Keyword Processor is a versatile tool for linguistic analysis and exploratio
    - Clone the repository:
      ```bash
      git clone https://github.com/Nafi7393/Keyword-Processor.git
-     cd keyword-processor
+     cd Keyword-Processor
      ```
    - Install dependencies:
      ```bash
