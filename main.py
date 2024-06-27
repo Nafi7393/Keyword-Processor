@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-from collections import Counter
-import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 import requests
 import pickle
@@ -29,8 +27,8 @@ def format_text_to_list(string):
 def get_synonyms(keyword):
     api_url = f'https://api.api-ninjas.com/v1/thesaurus?word={keyword}'
     response = requests.get(api_url, headers={'X-Api-Key': api_key})
-    print(response.text)
-    return response
+
+    return response.json()
 
 
 # Initialize Streamlit app
@@ -52,7 +50,7 @@ st.markdown("###### Please enter your keywords separated by commas:")
 # Text area for inputting keywords
 all_keywords = st.text_area("Enter keywords here...", height=100)
 
-keyword_list = ["cat", "dog"]
+keyword_list = []
 
 
 # Function to process keywords with categories
