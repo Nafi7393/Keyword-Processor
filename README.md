@@ -28,7 +28,7 @@ The Keyword Processor is a versatile tool for linguistic analysis and exploratio
 
 *Description: Interface after processing keywords, displaying the processed keywords.*
 ###
-### 3. After Clicking ope of the "Get details for" Button
+### 3. After Clicking one of the "Get details for" Button
 
 ![Details View](DEMO/3.png)
 
